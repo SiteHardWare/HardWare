@@ -1,0 +1,177 @@
+body {
+	background-color: white;
+	
+    background-image: url("img/fond.jpg");
+    /*
+    background-size: 40px 40px;
+    background-position: top right;*/
+    
+}
+#logo {
+ float: right;
+width : 175px;
+height: 175px;
+}
+/*
+.formulaire{
+	display : flex;
+	vertical-align : top;
+}*/
+nav {
+	width : 100%;
+	background-color : #424558;
+	text-align: center;
+	margin-bottom: 30px;
+}
+nav a {
+	display:inline-block;
+	text-decoration: none;
+	text-align: justify;
+	font-family: serif;
+	font-size: 1em 
+}
+nav > ul > li > a{
+	padding: 20px 30px;
+	color : #FFF;
+	text-align: center;
+
+}
+nav > ul  {
+	margin : 0px;
+	padding : 0px;
+
+}
+nav > ul::after  {
+	content:"";
+	display: block;
+	clear : both;
+}
+nav > ul > li {
+	padding:   20px;
+	float : left;
+	position : relative
+}
+nav > ul > li:hover a {
+	padding: 15px 30px 20px 30px;
+}
+nav li {
+	list-style-type: none;
+}
+.sous_menu{
+	display : none;
+}
+nav li:hover .sous_menu{
+	display: inline-block;
+	position : absolute;
+	top: 100%;
+	left : 0px;
+	padding : 0px;
+	z-index: 100000;
+}
+
+.sous_menu li {
+	border-bottom : 1px solid #CCC;
+	
+}
+.sous_menu li a{
+	padding : 15px 30px;
+	font-size : 13px;
+	color: #222538;
+	width: 270px;
+}
+
+.link  {
+	border-radius: 10px;
+	background-image: linear-gradient(red, black);
+	color: #a7a4a3 ;
+	font-size: 1.5em;
+	text-decoration: none;
+	border: 2px solid black;
+	margin: 50px;
+	padding: 50px;
+}
+.link a:hover{
+text-decoration: underline;
+
+ }
+.menu-html .sous_menu{
+	background-color: RGB(230,100,40);
+}
+.sous_menu li:hover a {
+	color : #EEE;
+	font-weight : bold;
+}
+.menu-html .sous_menu li:hover{
+	background-color: RGB(210,77,60);
+}
+.menu-html:hover{
+	border-top : 5px solid #e44D26;
+	background-color : RGBa(228,77,38,0.15);
+}
+@media screen and (max-width: 850px) {
+	#nav {
+	display: flex;
+	 flex-direction: column;
+
+	}
+}
+
+ .conteneur{
+	border : 5px inset maroon;
+	margin-left : 20%;
+	margin-right: 20%;
+	margin-bottom: 3%;
+	background-color:  #cdc7c6 ;
+	padding : 10px;
+}
+#footer {
+	text-align: center;
+	border : 5px inset maroon;
+	margin-left : 5%;
+	margin-right: 5%;
+	margin-bottom: 3%;
+	background-color:  #cdc7c6 ;
+	padding : 10px;
+}
+.elementAligner{
+	display: flex;
+	 flex-direction: column;
+	 margin-top : 30px;
+
+}
+
+
+h3 {
+	color : blue;
+}
+p
+{
+   font-family: "Times News Roman";
+   font-size: 20px;
+}
+input{
+	border-radius: 5px;
+	margin: 10px;
+	vertical-align: middle;
+
+}
+img, iframe {
+	
+	 display: block;
+    margin-left: auto;
+    margin-right: auto
+
+}
+#livre_dor{
+height: 400px;
+overflow: auto;
+ text-align: justify;
+ color : #ba2a20; 
+}
+.alert{
+	color : maroon;
+}
+hr{
+	border :1px double #AAC;
+}
+
